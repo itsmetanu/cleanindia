@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>cleangreenindia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+.header{
+background-color:white;
+height:132px;
+margin-top:0;
+}
+
+  .navbar {
+      margin-bottom: 0;
+      background-color:lightgreen;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+     
+     }
+
+.navbar-default .navbar-toggle {
+      border-color: transparent;
+      color:blue !important;}
+.navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+      font-size:15px;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color:white !important;
+  }
+ 
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;
+        height: 30%;	
+}
+.contain
+{
+color:#008FB2;
+padding:10px;
+}
+.content
+{
+background-color:white;
+color:black;
+height:200px;
+border-style:groove;
+border-color:black;
+font-style:serif;
+}
+
+p{
+padding:20px; } 
+
+.clear{
+
+height:20px;}
+
+#footer{
+background-color:green;
+color:white;}
+h5{
+text-align:center;
+font-family:monospace;
+font-size:30px;
+}
+
+body{
+background-image:url('background2.jpg');}
+</style>
+<body>
+<div class="header">
+<h1><a href="#"><img src="clean.jpg" alt="charitable trust" width="569" height="132"></a></h2>
+</div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="rashi.html" class="active">HOME</a></li>
+        <li><a href="about.html">WHO WE ARE</a></li>
+        <li><a href="mission.html">MISSION</a></li>
+        <li><a href="donation.html">DONATION</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-11">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+                <div class="item active">
+                    <img src="gallery1.jpg">
+                </div>
+                    
+            </div>
+        </div> 
+      <div class="clearfix">
+        <div id="thumbcarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="im3.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="im2.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="gallery1.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="img6.jpg"></div>
+                </div><!-- /item -->
+                <div class="item">
+                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="im3.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="im2.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="6" class="thumb"><img src="im8.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="7" class="thumb"><img src="im5.jpg"></div>
+                </div><!-- /item -->
+            </div><!-- /carousel-inner -->
+            <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        
+    </div>
+    </div> 
+</div>
+<div class="clear"></div>
+   
+   <div class="container1">
+   
+   <div class="row">
+   <div class="col-sm-6">
+        <div class="content">
+        <h5>CLICK AND UPLOAD</h5>
+       
+<p>seen mess around,click a picture of it.Upload it here
+sharing the picture with us will help  us to take intiatives to clean it</p>
+<table>
+<tr height="30">
+<td>Upload Main Image :</td>
+<td></td>
+<td><input type="hidden" name="MAX_FILE_SIZE" value="2500000"> <input type="file" name="image">
+</td>
+</tr>
+
+<tr height="30">
+<td>Upload Image 2 :</td>
+<td></td>
+<td><input type="hidden" name="MAX_FILE_SIZE" value="2500000"> <input type="file" name="image2">
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+<div class="col-sm-6">
+     <div class="video">
+     <iframe title="YouTube video player" class="youtube-player" type="text/html" 
+			width="380" height="250" src="https://www.youtube.com/watch?v=aDN7p8Q-Db0"
+			frameborder="0" allowFullScreen></iframe>
+	</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<footer id="footer">
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-3">
+    <h3>Quick links</h3>
+<ul>
+<li><a href="http://www.rashidamonirtrust.com/">Home</a></li>
+<li><a href="http://www.rashidamonirtrust.com/aboutus.html">who we are</a></li>
+
+<li><a href="http://www.rashidamonirtrust.com/activities.html">Activities</a></li>
+<li><a href="http://www.rashidamonirtrust.com/mission.html">Mission</a></li>
+</ul></div>
+<div class="col-sm-3">
+<h3>Quick links</h3>
+<ul>
+<li><a href="http://www.rashidamonirtrust.com/gallery.html">Gallery</a></li>
+<li><a href="http://www.rashidamonirtrust.com/donation.html">Donate</a></li>
+<li><a href="http://www.rashidamonirtrust.com/sitemap.html">Sitemap</a></li>
+<li><a href="http://www.rashidamonirtrust.com/contactus.html">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3>Our Declaration</h3><p style="font-size:larger;">Arise, awake and stop not till the goal is achieved.--Swami Vivekananda.</p></div>
+<div class="col-sm-3">
+<h3>Connect with us</h3>
+    <ul>
+<li><a href="http://www.twitter.com"><img src="http://www.rashidamonirtrust.com/wp-content/themes/twentyeleven/images/tw.png" alt="">Twitter</a></li>
+<li><a href="http://www.facebook.com"><img src="http://www.rashidamonirtrust.com/wp-content/themes/twentyeleven/images/fb.png" alt="">Facebook</a></li>
+<li><a href="http://www.plus.google.com"><img src="http://www.rashidamonirtrust.com/wp-content/themes/twentyeleven/images/g+.png" alt="">Google Plus</a></li>
+<li><a href="http://www.rss.com"><img src="http://www.rashidamonirtrust.com/wp-content/themes/twentyeleven/images/feed.png" alt="">RSS Feed</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
